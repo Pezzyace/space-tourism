@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(../assets/home/background-home-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.page{
+  margin-top: 20px;
+}
+nav{
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+  margin-bottom: 120px;
+  justify-content: space-between;
+}
+.nav-section{
+  display: flex;
+  align-items: center;
+}
+hr{
+  color: rgb(255, 255, 255);
+  height: 1px;
+  z-index: 30;
+  width: 530px;
+  position: absolute;
+  left: 155px;
+}
+.navbar{
+  background-color: rgba(73, 74, 78, 0.329);
+  position: relative;
+  z-index: 10;
+  width: 55%;
+  color: white;
+  list-style: none;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+}
+.nav-links{
+  margin-left: 50px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  padding-bottom: 22px;
+}
+.nav-links:hover{
+  border-bottom: 3px solid hsla(0, 0%, 100%, 0.5);
+}
+.nav-links:focus{
+  border-bottom: 3px solid hsl(0, 0%, 100%) !important;
+}
+
+
+
+
+
+
+/****************************************************/
+main{
+  width: 85%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+h2{
+  font-size: 23px;
+  color: hsl(231, 77%, 90%);
+  text-transform: uppercase;
+  margin: 0px 0px 10px 0px;
+}
+h1{
+  font-size: 120px;
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  margin: 0px 0px 10px 0px;
+}
+.left{
+  margin-left: 20px;
+}
+.body{
+  font-size: 15px;
+  color: hsl(231, 77%, 90%);
+  width: 65%;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: justify;
+}
+.exploring{
+  margin-left: 100px;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.explore-container{
+  background-color: hsl(0, 0%, 100%);
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.explore{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.exploring:hover{
+  background-color: rgba(255, 255, 255, 0.342);
+  padding: 50px;
+}

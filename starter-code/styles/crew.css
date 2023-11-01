@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(../assets/home/background-home-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.page{
+  margin-top: 20px;
+}
+nav{
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+  margin-bottom: 70px;
+  justify-content: space-between;
+}
+.nav-section{
+  display: flex;
+  align-items: center;
+}
+hr{
+  color: rgb(255, 255, 255);
+  height: 1px;
+  z-index: 30;
+  width: 530px;
+  position: absolute;
+  left: 155px;
+}
+.navbar{
+  background-color: rgba(73, 74, 78, 0.329);
+  position: relative;
+  z-index: 10;
+  width: 55%;
+  color: white;
+  list-style: none;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+}
+.nav-links{
+  margin-left: 50px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  padding-bottom: 22px;
+}
+.nav-links:hover{
+  border-bottom: 3px solid hsla(0, 0%, 100%, 0.5);
+}
+.nav-links:focus{
+  border-bottom: 3px solid hsl(0, 0%, 100%) !important;
+}
+
+
+
+
+/**---------------SCROLL CONTROL-----------------**/
+.commander-page, .specialist-page, .pilot-page, .engineer-page{
+  display: flex;
+  justify-content: space-between;
+}
+.commander-page{
+  display: nne;
+}
+.specialist-page{
+  display: none;
+}
+.pilot-page{
+  display: none;
+}
+.engineer-page{
+  display: none;
+}
+
+
+
+
+
+
+
+/**--------------DESIGN--------------------------------**/
+main{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.scrollbar{
+  display: flex;
+}
+.top{
+  margin-bottom: 50px;
+  
+}
+.left{ width: 50%;}
+.role{
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.name{
+  font-size: 56px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.bio{
+  color: hsla(0, 0%, 100%, 0.7);
+  line-height: 25px;
+  width: 70%;
+}
+.scroll-link{
+  height: 10px;
+  width: 25px;
+  background-color:  hsla(0, 0%, 100%, 0.425);
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.scroll-link:after{
+  background-color: hsl(0, 0%, 100%);
+}
+.scroll-link:hover{
+  background-color: hsl(0, 0%, 100%);
+}
+.right{
+  object-fit: contain;
+}
+.picture{
+  width: auto;
+  height: 470px;
+  object-fit: contain;
+}
+
+
+
