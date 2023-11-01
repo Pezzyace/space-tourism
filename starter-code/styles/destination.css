@@ -1,70 +1,13 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Barlow Condensed', sans-serif;
-  font-family: 'Bellefair', serif;
-  list-style: none;
-}
-a{
-  font-family: 'Barlow Condensed', sans-serif;
-}
+@import 'nav.css';
+
 body{
   background: url(../destination/images/background-destination-desktop.jpg);
   background-repeat: no-repeat;
   background-size:cover;
 }
-.page{
-  margin-top: 20px;
+#destination{
+  border-bottom: 3px solid #FFFFFF;
 }
-nav{
-  display: flex;
-  margin: 20px 0px 50px 50px;
-  align-items: center;
-  justify-content: space-between;
-}
-.nav-section{
-  display: flex;
-  align-items: center;
-}
-.nav-section hr{
-  color: rgb(255, 255, 255);
-  height: 1px;
-  z-index: 30;
-  width: 530px;
-  position: absolute;
-  left: 155px;
-}
-.navbar{
-  background-color: rgba(73, 74, 78, 0.329);
-  position: relative;
-  z-index: 10;
-  width: 55%;
-  color: white;
-  list-style: none;
-  display: flex;
-  height: 70px;
-  align-items: center;
-  padding-left: 30px;
-}
-.nav-links{
-  margin-left: 50px;
-  font-size: 14px;
-  text-decoration: none;
-  color: white;
-  padding-bottom: 22px;
-  font-family: 'Barlow Condensed', sans-serif;
-  letter-spacing: 2.7px;
-  font-weight: 300;
-}
-.nav-links:hover{
-  border-bottom: 3px solid hsla(0, 0%, 100%, 0.5);
-}
-.nav-links:active{
-  border-bottom: 3px solid hsl(0, 0%, 100%) !important;
-}
-
-
 /*********************MAIN**************************************/
 main{
   display: flex;
@@ -95,7 +38,7 @@ main .wrapper .left{
 }
 main .wrapper .left img{
   width: 60%;
-  margin-left: 50px;
+  margin: 50px ;
 }
 main .right ul{
   display: flex;
@@ -130,12 +73,13 @@ main .right ul a:active{
   color: #D0D6F9;
   font-size: 16px;
   line-height: 1.5;
-  width: 70%;
+  width: 75%;
   margin-bottom: 30px;
 }
 .destination hr{
   opacity: 0.2;
   margin-bottom: 20px;
+  width: 75%;
 }
 .location-section{
   display:flex;
@@ -143,7 +87,7 @@ main .right ul a:active{
   width: 100%;
 }
 .distance-container, .travel-time-container{
-  width: 150px;
+  width: 170px;
   text-transform: uppercase;
 }
 .distance-container h2, .travel-time-container h2{

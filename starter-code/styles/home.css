@@ -1,65 +1,10 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import 'nav.css';
+
 body{
-  background-image: url(../assets/home/background-home-desktop.jpg);
+  background: url(/starter-code/assets/home/background-home-desktop.jpg);
   background-repeat: no-repeat;
   background-size:cover;
 }
-.page{
-  margin-top: 20px;
-}
-nav{
-  display: flex;
-  margin-left: 50px;
-  align-items: center;
-  margin-bottom: 120px;
-  justify-content: space-between;
-}
-.nav-section{
-  display: flex;
-  align-items: center;
-}
-hr{
-  color: rgb(255, 255, 255);
-  height: 1px;
-  z-index: 30;
-  width: 530px;
-  position: absolute;
-  left: 155px;
-}
-.navbar{
-  background-color: rgba(73, 74, 78, 0.329);
-  position: relative;
-  z-index: 10;
-  width: 55%;
-  color: white;
-  list-style: none;
-  display: flex;
-  height: 70px;
-  align-items: center;
-  justify-content: center;
-}
-.nav-links{
-  margin-left: 50px;
-  font-size: 15px;
-  text-decoration: none;
-  color: white;
-  padding-bottom: 22px;
-}
-.nav-links:hover{
-  border-bottom: 3px solid hsla(0, 0%, 100%, 0.5);
-}
-.nav-links:focus{
-  border-bottom: 3px solid hsl(0, 0%, 100%) !important;
-}
-
-
-
-
-
 
 /****************************************************/
 main{
