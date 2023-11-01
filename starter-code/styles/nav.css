@@ -9,7 +9,7 @@
 a{
   font-family: 'Barlow Condensed', sans-serif;
 }
-.page{
+.container{
   margin-top: 20px;
 }
 nav{
@@ -29,6 +29,7 @@ nav{
   width: 530px;
   position: absolute;
   left: 155px;
+  opacity: 0.3;
 }
 .navbar{
   background-color: rgba(73, 74, 78, 0.329);

@@ -8,29 +8,35 @@ body{
 
 /****************************************************/
 main{
-  width: 85%;
+  width: 80%;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  padding-top: 50px;
 }
 h2{
   font-size: 23px;
   color: hsl(231, 77%, 90%);
   text-transform: uppercase;
   margin: 0px 0px 10px 0px;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 4.75px;
+  font-weight: 300;
 }
 h1{
   font-size: 120px;
   color: hsl(0, 0%, 100%);
   text-transform: uppercase;
   margin: 0px 0px 10px 0px;
+  font-family: 'Bellefair', serif;
+  font-weight: 300;
 }
 .left{
   margin-left: 20px;
 }
 .body{
-  font-size: 15px;
+  font-size: 14px;
   color: hsl(231, 77%, 90%);
   width: 65%;
   font-weight: 400;
