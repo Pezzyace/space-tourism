@@ -102,3 +102,115 @@ main .right ul a:active{
   color: #FFFFFF;
   margin-bottom: 0;
 }
+
+@media (540px <= width <= 768px) {
+  body{
+    background: url(/starter-code/destination/images/background-destination-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+  main{
+    width: 85%;
+  }
+  .container{
+    margin: 0;
+  }
+  main .wrapper{
+    grid-template-columns: 1fr;
+  }
+  main .wrapper .left, .wrapper .right{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  main .wrapper .left img{
+    margin: 0;
+  }
+  main .right ul{
+    margin-top: 30px;
+  }
+  .destination h1{
+    text-align: center;
+    font-size: 80px;
+  }
+  .destination p{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: 13px;
+  }
+  .destination hr{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .location-section{
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+  .distance-container h2, .travel-time-container h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .distance-container p, .travel-time-container p {
+    font-size: 20px;
+  }
+}
+
+@media (width <= 539px) {
+  body{
+    background: url(/starter-code/destination/images/background-destination-mobile.jpg) no-repeat;
+    background-size: cover;
+  }
+  main{
+    width: 85%;
+    margin: 0 auto;
+  }
+  main .wrapper{
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  main .wrapper .left, .wrapper .right{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 95%;
+  }
+  main .wrapper .left img{
+    margin: 0;
+  }
+  main .right ul{
+    margin-top: 30px;
+  }
+  .destination h1{
+    text-align: center;
+    font-size: 80px;
+  }
+  .destination p{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .destination hr{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .location-section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+  .distance-container h2, .travel-time-container h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}

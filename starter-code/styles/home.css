@@ -71,3 +71,79 @@ h1{
   background-color: rgba(255, 255, 255, 0.342);
   padding: 50px;
 }
+
+@media (540px <= width <= 768px) {
+  body{
+    background: url(/starter-code/assets/home/background-home-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+  main{
+    grid-template-columns: 1fr;
+  }
+  .left, .right{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .left h2, .left h1, .left .body{
+    text-align: center;
+  }
+  .body{
+    width: 55%;
+  }
+  .explore-container{
+    width: 167px;
+    height: 167px;
+  }
+  .exploring{
+    width: 300px; 
+    height: 300px;
+    margin: 0;
+  }
+}
+
+@media (width <= 539px) {
+  body{
+    background: url(/starter-code/assets/home/background-home-mobile.jpg) no-repeat;
+    background-size: cover;
+  }
+  main{
+    grid-template-columns: 1fr;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  .left, .right{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .left h2, .left h1, .left .body{
+    text-align: center;
+  }
+  .left h2{
+    font-size: 15px;
+    letter-spacing: 2.75px;;
+  }
+  .left h1{
+    font-size: 90px;
+  }
+  .body{
+    width: 90%;
+  }
+  .explore-container{
+    width: 167px;
+    height: 167px;
+  }
+  .exploring{
+    width: 300px; 
+    height: 300px;
+    margin: 0;
+  }
+}
