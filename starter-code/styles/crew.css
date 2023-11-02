@@ -38,7 +38,7 @@ main .right{
 main .left h3{
   text-transform: uppercase;
   font-size: 24px;
-  color: #ffffff;
+  color: #a7a7a7;
   font-family: 'Bellefair', serif;
   font-weight: 300;
   margin-bottom: 20px;
@@ -72,4 +72,85 @@ main .left div a div:hover{
 }
 main .right img{
   height: 100%;
+}
+
+@media (540px <= width <= 768px) {
+  body{
+    background: url(/starter-code/crew/images/background-crew-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+  main{
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+  main h2{
+    margin-bottom: 40px;
+  }
+  main .left{
+    height: 55vh;
+  }
+  main .left h3{
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  main .left p{
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  main .left h1{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  main .left div{
+    width: 12%;
+    margin: 0 auto;
+  }
+  main .right{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (width <= 539px) {
+  body{
+    background: url(/starter-code/crew/images/background-crew-mobile.jpg) no-repeat;
+    background-size: cover;
+  }
+  main{
+    grid-template-columns: 1fr;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  .left, .right{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .left h2, .left h1, .left .body{
+    text-align: center;
+  }
+  .left h2{
+    font-size: 15px;
+    letter-spacing: 2.75px;;
+  }
+  .left h1{
+    font-size: 90px;
+  }
+  .body{
+    width: 90%;
+  }
+  .explore-container{
+    width: 167px;
+    height: 167px;
+  }
+  .exploring{
+    width: 300px; 
+    height: 300px;
+    margin: 0;
+  }
 }

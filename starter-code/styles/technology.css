@@ -90,3 +90,120 @@ main .wrapper .right img{
   width: 100%;
   height: 100%;
 }
+.desktop-img{
+  display: none;
+}
+
+@media (540px <= width <= 768px) {
+  body{
+    background: url(/starter-code/technology/images/background-technology-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+  main{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .desktop-img{
+    display: flex;
+    margin-bottom: 30px;
+  }
+  main h2{
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  main .wrapper{
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  main .wrapper .right img {
+    display: none;
+  }
+  .container{
+    margin: 0;
+  }
+  main .wrapper .left, .wrapper .right{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 85%;
+  }
+  main .wrapper .left .nav a, main .wrapper .left .nav a div {
+    width: 50px;
+    height: 50px;
+  }
+  .wrapper .right{
+    display: none;
+  }
+  main .wrapper .left .nav{
+    flex-direction: row;
+  }
+  .details-container h3, .details-container h1, .details-container p{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .details-container h1{
+    padding-bottom: 25px;
+  }
+}
+
+@media (width <= 539px) {
+  body{
+    background: url(/starter-code/technology/images/background-technology-mobile.jpg) no-repeat;
+    background-size: cover;
+  }
+  main{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .desktop-img{
+    display: flex;
+    margin-bottom: 30px;
+  }
+  main h2{
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  main .wrapper{
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  main .wrapper .right img {
+    display: none;
+  }
+  .container{
+    margin: 0;
+  }
+  main .wrapper .left, .wrapper .right{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 85%;
+  }
+  main .wrapper .left .nav a, main .wrapper .left .nav a div {
+    width: 50px;
+    height: 50px;
+  }
+  .wrapper .right{
+    display: none;
+  }
+  main .wrapper .left .nav{
+    flex-direction: row;
+  }
+  .details-container h3, .details-container h1, .details-container p{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .details-container h1{
+    padding-bottom: 25px;
+  }
+}
