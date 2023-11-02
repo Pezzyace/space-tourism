@@ -170,6 +170,9 @@ main .right ul a:active{
     width: 85%;
     margin: 0 auto;
   }
+  .container{
+    margin: 0;
+  }
   main .wrapper{
     grid-template-columns: 1fr;
     width: 100%;
@@ -188,6 +191,9 @@ main .right ul a:active{
   }
   main .right ul{
     margin-top: 30px;
+  }
+  main h2{
+    font-size: 20px;
   }
   .destination h1{
     text-align: center;

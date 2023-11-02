@@ -167,6 +167,7 @@ main .wrapper .right img{
   main h2{
     text-align: center;
     margin-bottom: 45px;
+    font-size: 20px;
   }
   main .wrapper{
     grid-template-columns: 1fr;
